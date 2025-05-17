@@ -1,3 +1,37 @@
+"""
+=========================================
+WEB SCRAPER WITH SHADOWFOX INTEGRATION
+=========================================
+
+--> DESCRIPTION:
+A Python-based web scraper to extract structured data from websites. It is designed to crawl pages, gather textual and media content, and save results into a CSV file.
+
+--> FEATURES:
+- Extracts titles, headings, paragraphs, image URLs, and internal links.
+- Follows internal links recursively up to a given page limit.
+- Stores results in a CSV file.
+- Graceful error handling and polite crawling delays.
+
+--> MODULES USED:
+- requests: For sending HTTP requests.
+- BeautifulSoup (bs4): For parsing HTML content.
+- csv: For saving extracted data.
+- time: To introduce delays between requests.
+- urllib.parse: To normalize and validate URLs.
+
+--> USAGE:
+1. Ensure required packages are installed:
+       pip install requests beautifulsoup4
+
+2. Run the script:
+       python web_scraper.py
+
+3. Provide the target website and number of pages to scrape when prompted.
+
+4. Output:
+       A file named 'scraped_output.csv' containing all extracted content.
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import csv
