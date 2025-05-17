@@ -1,3 +1,26 @@
+"""
+=========================================
+📝 HANGMAN: PYTHON PROGRAMMING EDITION
+=========================================
+
+--> DESCRIPTION:
+This is a command-line Hangman game focused on Python programming concepts.
+Players will guess words related to Python, like 'loop', 'function', 'lambda', etc.
+Each word comes with a helpful hint to guide the player.
+
+--> FEATURES:
+- Word list focused on Python programming
+- Hints provided for each word
+- ASCII-art hangman display
+- Support for letter-by-letter or full-word guessing
+- Replay option after each round
+
+--> HOW TO RUN:
+Make sure Python is installed on your system.
+Then run the script using:
+
+    python hangman.py
+"""
 import random
 
 
